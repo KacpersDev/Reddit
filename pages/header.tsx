@@ -19,6 +19,7 @@ export default function Header(){
                     <button className={styles.header_button} id={styles.app}>Get App</button>    
                 </div>    
             </div>       
+            <p className={styles.trending_title_container}>Trending today</p>
         </div>
     );    
 }
